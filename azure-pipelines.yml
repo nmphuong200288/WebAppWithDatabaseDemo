@@ -13,7 +13,7 @@ steps:
   inputs:
     packageType: sdk
     version: 6.0.x
-    installationPath: $(Agent.ToolsDirectory)/dotnet1
+    installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: DotNetCoreCLI@2
   displayName: Restore Nuget Packages
